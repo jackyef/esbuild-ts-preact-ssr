@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./public",
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment"
+  },
+  "include": [
+    "./src/**/*.tsx",
+    "./src/**/*.ts"
+  ]
+}
